@@ -34,3 +34,22 @@
     filter: grayscale(1);
     transition-duration: 2s;
 }
+
+/* Esercizio 7 */
+.ex-7-img{
+    filter: saturate(1);
+    transition: ease-in-out 3s;
+}
+
+.ex-7-img:hover{
+    filter: grayscale(1);
+    transition: ease-in-out 5s;
+}
+/********** DA SISTEMARE **********/
+
+/* Esercizio 8 */
+.ex-8-img{
+    filter: saturate(2) brightness(0.8);
+    border-radius: 50px;
+}
+/* Esercizio 9 */
