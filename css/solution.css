@@ -60,3 +60,21 @@
     height: auto;
 }
 /* Esercizio 10 */
+.ex-10-icon{
+    animation: spinning 1s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spinning{
+    0% {
+        transform: rotate(360deg);
+    }
+}
+/********** DA RIVEDERE **********/
+/* Esercizio 11 */
+
+
+/* Esercizio 12 */
+
+
+/* Esercizio 13 */
