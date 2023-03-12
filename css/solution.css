@@ -14,6 +14,6 @@
 }
 
 .ex-4-square:hover{
-    opacity: 0.025;
+    opacity: 0.015;
     transition: 3s;
 }
