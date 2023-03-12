@@ -53,3 +53,10 @@
     border-radius: 50px;
 }
 /* Esercizio 9 */
+.ex-9-img{
+    filter: grayscale(1) contrast(0.5);
+    border-radius: 70px;
+    max-width: 300px;
+    height: auto;
+}
+/* Esercizio 10 */
