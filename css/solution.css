@@ -3,3 +3,9 @@
     transition: ease-in-out 1s;
     background-color: red;
 }
+
+.ex-2-square:active{
+    cursor: pointer;
+    width: 200px;
+    height: 100px;
+}
