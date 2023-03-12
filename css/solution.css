@@ -37,13 +37,11 @@
 
 /* Esercizio 7 */
 .ex-7-img{
-    filter: saturate(1);
-    transition: ease-in-out 3s;
+    transition: 2s;
 }
 
 .ex-7-img:hover{
-    filter: grayscale(1);
-    transition: ease-in-out 5s;
+    filter: grayscale(1) saturate(1);
 }
 /********** DA SISTEMARE **********/
 
