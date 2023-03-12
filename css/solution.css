@@ -43,8 +43,6 @@
 .ex-7-img:hover{
     filter: grayscale(1) saturate(1);
 }
-/********** DA SISTEMARE **********/
-
 /* Esercizio 8 */
 .ex-8-img{
     filter: saturate(2) brightness(0.8);
@@ -67,10 +65,24 @@
         transform: rotate(360deg);
     }
 }
-/********** DA RIVEDERE **********/
 /* Esercizio 11 */
+.ex-11-icon{
+    animation: spin-icon 1s linear;
+    animation-iteration-count: infinite;
+}
 
+@keyframes spin-icon{
+    0% {
+        transform: rotate(0);
+    }
+    80% {
+        transform: rotate(315deg);
+    }
+    100% {
+        transform: 0;
+    }
 
+}    
 /* Esercizio 12 */
 
 
