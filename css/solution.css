@@ -54,8 +54,7 @@
 .ex-9-img{
     filter: grayscale(1) contrast(0.5);
     border-radius: 70px;
-    max-width: 300px;
-    height: auto;
+    transform: scale(1.30);
 }
 /* Esercizio 10 */
 .ex-10-icon{
