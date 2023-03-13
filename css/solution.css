@@ -46,21 +46,25 @@
 }
 
 .ex-7-img:hover{
+    cursor: pointer;
     filter: grayscale(1) saturate(1);
 }
 /* Esercizio 8 */
 .ex-8-img:hover{
+    cursor: pointer;
     filter: saturate(2) brightness(0.8);
     border-radius: 50px;
 }
 /* Esercizio 9 */
 .ex-9-img:hover{
+    cursor: pointer;
     filter: grayscale(1) contrast(0.5);
     border-radius: 70px;
     transform: scale(1.30);
 }
 /* Esercizio 10 */
 .ex-10-icon{
+    cursor: progress;
     animation: spinning 1s linear;
     animation-iteration-count: infinite;
 }
@@ -72,6 +76,7 @@
 }
 /* Esercizio 11 */
 .ex-11-icon:hover{
+    cursor: pointer;
     animation: spin-icon 1s linear;
     animation-iteration-count: infinite;
 }
@@ -153,6 +158,7 @@
 
 /* Esercizio 13 */
 .ex-13-button:hover .ex-13-top-white {
+    cursor: pointer;
     animation: moveTopWhole 2s linear;
     animation-iteration-count: infinite;
 }
@@ -184,6 +190,7 @@
     }
 }
 .ex-13-button:hover .ex-13-bottom-white {
+    cursor: pointer;
     animation: moveBottomWhole 2s linear;
     animation-iteration-count: infinite;
 }
