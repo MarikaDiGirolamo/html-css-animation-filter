@@ -12,15 +12,18 @@
 }
 /* Esercizio 3 */
 .ex-3-square:hover{
+    cursor: pointer;
     border-radius: 50%;
 }
 /* Esercizio 4 */
 .ex-4-square:hover{
+    cursor: progress;
     opacity: 0.015;
     transition: 3s;
 }
 /* Esercizio 5 */
 .ex-5-square:hover{
+    cursor: pointer;
     width: 80px;
     height: 80px;
 }
@@ -31,6 +34,7 @@
 }
 /* Esercizio 6 */
 .ex-6-img:hover{
+    cursor: alias;
     filter: grayscale(1);
     transition-duration: 2s;
 }
@@ -75,7 +79,7 @@
     0% {
         transform: rotate(0);
     }
-    80% {
+    90% {
         transform: rotate(315deg);
     }
     100% {
@@ -84,6 +88,33 @@
 
 }    
 /* Esercizio 12 */
-
+.ex-12-button:hover .ex-12-top-white{
+    animation: MoveTop 2s linear;
+}   
+@keyframes MoveTop{
+    0% {
+        left: 20%;
+    }
+    50% {
+        right: calc(100% - 60px);
+    }
+    100% {
+        right: 20%;
+    }
+} 
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: MoveBottom 2s linear;
+}
+@keyframes MoveBottom{
+    0% {
+        right: 25%;
+    }
+    50% {
+        right: calc(100% - 60px);
+    }
+    100%{
+        right: 25%;
+    }
+}
 
 /* Esercizio 13 */
